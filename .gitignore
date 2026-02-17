@@ -1,0 +1,20 @@
+# Build
+bin/
+obj/
+
+# Secrets - do not commit real DB password; use User Secrets o env vars
+**/secrets.json
+**/appsettings.Development.json
+
+# IDE
+.vs/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
